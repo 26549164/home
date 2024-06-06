@@ -48,6 +48,7 @@ import { mainStore } from "@/store";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Mousewheel } from "swiper/modules";
 import siteLinks from "@/assets/siteLinks.json";
+
 const store = mainStore();
 
 // 计算网站链接
@@ -70,7 +71,7 @@ const siteIcon = {
   Fire,
   LaptopCode,
 };
-
+  
 // 链接跳转
 const jumpLink = (data) => {
   if (data.name === "音乐" && store.musicClick) {
