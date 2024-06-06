@@ -48,7 +48,6 @@ import { mainStore } from "@/store";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Mousewheel } from "swiper/modules";
 import siteLinks from "@/assets/siteLinks.json";
-
 const store = mainStore();
 
 // 计算网站链接
